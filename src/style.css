@@ -1,1 +1,66 @@
-@import "~bootstrap/dist/css/bootstrap.min.css";
+/* @import "~bootstrap/dist/css/bootstrap.min.css"; */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  background-color: #27ae60;
+}
+.main-container {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+}
+.card {
+  background-color: whitesmoke;
+  width: 300px;
+  height: 450px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: 11px 9px 20px -2px rgba(0, 0, 0, 0.54);
+  -webkit-box-shadow: 11px 9px 20px -2px rgba(0, 0, 0, 0.54);
+  -moz-box-shadow: 11px 9px 20px -2px rgba(0, 0, 0, 0.54);
+  padding: 0;
+}
+.symbol {
+  font-size: 10rem;
+  padding: 5px 20px;
+}
+.number {
+  font-size: 10rem;
+  text-align: center;
+}
+.symbol-reverse {
+  transform: rotate(180deg);
+}
+.red {
+  color: #c0392b;
+}
+
+.btn-generate {
+  margin-top: 2.8rem;
+  padding: 1rem;
+  border: none;
+  border-radius: 8px;
+  font-size: 2rem;
+  color: whitesmoke;
+  background-color: #3498db;
+  border: solid 1px #2980b9;
+}
+.btn-generate:hover {
+  background-color: #2980b9;
+  border: solid 1px #3498db;
+  scale: 98%;
+  cursor: pointer;
+}
